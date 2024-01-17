@@ -22,6 +22,8 @@ let { first, age } = array;
 
 // console.log(array.first);
 
-['apples', 'oranges', 'grapes'].forEach((value, index) => {
-    console.log(value, index)
-})
+["apples", "oranges", "grapes"].forEach((value, index) => {
+  console.log(value, index);
+});
+
+console.log("Some new changes here");
