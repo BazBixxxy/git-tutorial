@@ -11,3 +11,18 @@ function greet(name) {
 }
 
 greet(object.name)
+
+function renderSomeHTML() {
+  let newHTML = '';
+  const html = `
+  <div>
+  <button onclick="
+  addItems()
+  renderSomeHTMl()
+  ">Add</button>
+  </div>
+  `
+  document.querySelector('.container').innerHTML += html
+}
+
+renderSomeHTML()

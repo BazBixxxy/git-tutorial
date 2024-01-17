@@ -1,9 +1,14 @@
-first_name = 'Trevor'
-surname = 'Kwagala'
+first_name = input(f"What's your first name: ").title()
+surname = input(f"What's your surname: ").title()
 
-name = surname + ' ' + first_name
+def render_name():
+    name = surname + ' ' + first_name  
+    return name
+
+name = render_name()
 
 def greet(name) :
-    print(f'Hello {name}')
+    print(f'Hello {name} 😊')
 
 greet(name)
+
