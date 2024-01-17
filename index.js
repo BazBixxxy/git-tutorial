@@ -10,10 +10,10 @@ function greet(name) {
   console.log(`Hello ${name}`);
 }
 
-greet(object.name)
+greet(object.name);
 
 function renderSomeHTML() {
-  let newHTML = '';
+  let newHTML = "";
   const html = `
   <div>
   <button onclick="
@@ -21,8 +21,15 @@ function renderSomeHTML() {
   renderSomeHTMl()
   ">Add</button>
   </div>
-  `
-  document.querySelector('.container').innerHTML += html
+  `;
+  document.querySelector(".container").innerHTML += html;
 }
 
-renderSomeHTML()
+renderSomeHTML();
+
+const numbers = [1, -8, 4, -6, 7, 8, 9];
+numbers.filter((value, index) => {
+  if (value > 0) {
+    return value;
+  }
+});
