@@ -4,3 +4,4 @@ function generateRandomNumber() {
 }
 
 generateRandomNumber();
+console.log("change1");

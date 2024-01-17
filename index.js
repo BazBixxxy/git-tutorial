@@ -10,4 +10,11 @@ function greet(name) {
   console.log(`Hello ${name}`);
 }
 
-greet(object.name)
+greet(object.name);
+console.log("Change1");
+
+function moreChangesHere() {
+  console.log("changes, changes, changes");
+}
+
+moreChangesHere();
