@@ -12,3 +12,7 @@ def greet(name) :
 
 greet(name)
 
+array = ['apples', 'banana', 'grapes']
+
+for item in array:
+    print(item)
